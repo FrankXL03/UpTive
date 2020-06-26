@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+
+    background: url(/img/depor1.jpg);
+    background-size: cover;
+
+}
+
+.wrapped { 
+position: absolute;
+top: 50%;
+left: 25%;
+transform: translate(-50%,-35%);
+width: 600px;
+display: flex;
+box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+}
+
+.wrapped .left{
+
+width: 35%;
+background: linear-gradient(to right, rgb(59, 35, 165), rgb(84, 174, 226)) ;
+padding: 30px 25px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+text-align: center;
+color: #fff;
+}
+
+.wrapped .left img{
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+.wrapped .left h4{
+    margin-bottom: 10px;
+   
+    }
+
+    
+.wrapped .left p{
+   font-size: 12px;
+   
+    }
+
+.wrapped .right {
+
+    width: 65%;
+    background: rgb(255, 255, 255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+.wrapped .right .info, .wrapped .right .projects {
+
+    margin-bottom: 25px;
+    
+}
+
+.wrapped .right .info h3, .wrapped .right .projects h3{
+margin-bottom: 15px;
+padding-bottom: 5px;
+border-bottom: 1px solid #e0e0e0; 
+color: #353c4e;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+.wrapped .right .info_data, .wrapped .right .projects_data {
+display: flex;
+justify-content: space-between;
+}
+
+.wrapped .right .info_data .data, .wrapped .right .projects_data .data{
+    width: 45%;
+    }
+
+    .wrapped .right .info_data .data h4, .wrapped .right .projects_data .data h4{
+       color: #353c4e;
+       margin-bottom: 5px;
+    }
+
+    .wrapped .right .info_data .data p, .wrapped .right .projects_data .data p{
+       font-size: 13px;
+        margin-bottom: 10px;
+        color: #919aa3;
+     }
+
+     /*pa abajo*/
+     .wrapped1 { 
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%,-35%);
+        width: 600px;
+        display: flex;
+        box-shadow: 0 1px 20px 0 rgba(69,90,100,0.08);
+        }
+        
+        .wrapped1 .left1{
+        
+        width: 35%;
+        background: linear-gradient(to right, rgb(59, 35, 165), rgb(84, 174, 226)) ;
+        padding: 30px 25px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        text-align: center;
+        color: #fff;
+        }
+        
+        .wrapped1 .left1 img{
+        margin-bottom: 10px;
+        border-radius: 5px;
+        }
+        
+        .wrapped1 .left1 h4{
+            margin-bottom: 10px;
+           
+            }
+        
+            
+        .wrapped1 .left1 p{
+           font-size: 12px;
+           
+            }
+        
+        .wrapped1 .right {
+        
+            width: 65%;
+            background: rgb(255, 255, 255);
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 30px 25px;
+        }
+        .wrapped1 .right .info, .wrapped1 .right .projects {
+        
+            margin-bottom: 25px;
+            
+        }
+        
+        .wrapped1 .right .info h3, .wrapped1 .right .projects h3{
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #e0e0e0; 
+        color: #353c4e;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        }
+        
+        .wrapped1 .right .info_data, .wrapped1 .right .projects_data {
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        .wrapped1 .right .info_data .data, .wrapped1 .right .projects_data .data{
+            width: 45%;
+            }
+        
+            .wrapped1 .right .info_data .data h4, .wrapped1 .right .projects_data .data h4{
+               color: #353c4e;
+               margin-bottom: 5px;
+            }
+        
+            .wrapped1 .right .info_data .data p, .wrapped1 .right .projects_data .data p{
+               font-size: 13px;
+                margin-bottom: 10px;
+                color: #919aa3;
+             }
+
+    
+                  
+                
